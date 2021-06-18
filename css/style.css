@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Ink";
+    src: url("../fonts/Inkfree.ttf");
+    /* src: url("../fonts/Inkfree.ttf"); */
+}
+
+*{
+    margin: 0;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    font-family: "Ink";
+}
+
+.container{
+    margin: 150px auto;
+    height: 600px;
+    width: 600px;
+}
+
+.Title{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    height: 12%;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seperator{
+    border: 2px solid rgb(148, 0, 185);
+    border-radius: 50%;
+}
+
+.clock_container{
+    margin: 25px auto;
+    height: 450px;
+    width: 450px;
+}
+
+.Clock{
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    background: none;
+    border-radius: 50%;
+}
+
+.center{
+    position: absolute;
+    margin: 10% 10%;
+    border: 10px solid rgb(143, 143, 143);
+    border-radius: 50%;
+}
+
+.pin{
+    position: absolute;
+    margin-left: 10.4%;
+    margin-top: .2%;
+    height: 25px;
+}
+
+.pin-primary{
+    width: 10px;
+    background: rgb(148, 0, 185);
+}
+
+.pin-secondary{
+    width: 2px;
+    background: rgb(255, 255, 255);
+}
+
+#pin2{
+    transform:translate(10.4vmin, 2.9vmin) rotate(30deg);
+}
+
+#pin3{
+    transform:translate(17.4vmin, 10.1vmin) rotate(60deg);
+}
+
+#pin4{
+    transform:translate(19.6vmin, 20vmin) rotate(90deg);
+}
+
+#pin5{
+    transform:translate(17.4vmin, 29.8vmin) rotate(120deg);
+}
+
+#pin6{
+    transform:translate(10vmin, 36.8vmin) rotate(150deg);
+}
+
+#pin7{
+    transform:translate(-0.1vmin, 39.5vmin) rotate(180deg);
+}
+
+#pin8{
+    transform:translate(-9.6vmin, 37vmin) rotate(210deg);
+}
+
+#pin9{
+    transform:translate(-16.8vmin, 29.5vmin) rotate(240deg);
+}
+
+#pin10{
+    transform:translate(-19.8vmin, 19.8vmin) rotate(270deg);
+}
+
+#pin11{
+    transform:translate(-16.6vmin, 10.1vmin) rotate(300deg);
+}
+
+#pin12{
+    transform:translate(-9.4vmin, 2.9vmin) rotate(330deg);
+}
+
+.hand_container{
+    position: absolute;
+    margin-left: 10.5%;
+    margin-top: 2%;
+    height: 35%;
+    width: 5px;
+    background: none;
+    /* border: 2px solid green; */
+}
+
+.secHand{
+    height: 52%;
+    background: rgb(148, 0, 185);
+    border-radius: 50% 0%;
+}
+
+.minHand{
+    margin-top: 30px;
+    margin-left: 1.5px;
+    height: 40%;
+    width: 2px;
+    background: rgb(255, 255, 255);
+    border-radius: 50% 0%;
+}
+
+.hrHand{
+    margin-top: 55px;
+    margin-left: 1.5px;
+    height: 30%;
+    width: 2px;
+    background: rgb(255, 255, 255);
+    border-radius: 50% 0%;
+}
